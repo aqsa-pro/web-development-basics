@@ -1,4 +1,6 @@
-## HTML Lessons
+## Course outline
+
+### HTML Lessons
 
 1. **Introduction to HTML**
     *   Basics of HTML
