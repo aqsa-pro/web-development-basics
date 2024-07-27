@@ -1,106 +1,169 @@
-### Lesson 1: Introduction to HTML
+### Lesson 2: Text Formatting and Semantics
 
 #### Objectives:
 
-*   Understand the basics of HTML
-*   Learn the structure of an HTML document
-*   Create a simple HTML document
+* Learn about text formatting tags in HTML
+* Understand the importance of semantic HTML
+* Use semantic elements to improve the structure and accessibility of web content
 
 #### Lesson Outline:
 
-1.  **What is HTML?**
-2.  **Basic Structure of an HTML Document**
-3.  **Creating Your First HTML Document**
-4.  **Common HTML Tags**
+1.  **Basic Text Formatting**
+2.  **Semantic HTML Elements**
+3.  **Creating a Document with Semantic HTML**
 
-- - -
+* * *
 
-#### 1\. What is HTML?
+#### 1\. Basic Text Formatting
 
-HTML (HyperText Markup Language) is the standard language used to create web pages. It describes the structure of a webpage using elements and tags.
+HTML provides a variety of tags to format text. Here are some commonly used ones:
 
-*   **HyperText**: Text displayed on a computer or device that provides access to other text through links, also known as hyperlinks.
-*   **Markup Language**: A system for annotating a document in a way that is syntactically distinguishable from the text.
-
-#### 2\. Basic Structure of an HTML Document
-
-An HTML document has a defined structure that includes several key elements:
-
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My First HTML Page</title>
-</head>
-<body>
-    <h1>Welcome to HTML!</h1>
-    <p>This is a paragraph.</p>
-</body>
-</html>
-```
-
-*   `<!DOCTYPE html>`: Declares the document type and version of HTML.
-*   `<html>`: The root element of an HTML page.
-*   `<head>`: Contains meta-information about the document.
-*   `<title>`: Sets the title of the document, which appears in the browser tab.
-*   `<body>`: Contains the content of the document.
-
-#### 3\. Creating Your First HTML Document
-
-Let's create a simple HTML document:
-
-1.  Open a text editor (like VS Code, Sublime Text, or Notepad++).
-2.  Type the following code:
-
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My First HTML Page</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is my first HTML document.</p>
-</body>
-</html>
-```
-
-3.  Save the file with a `.html` extension (e.g., `index.html`).
-4.  Open the file in a web browser to see the result.
-
-#### 4\. Common HTML Tags
-
-Here are some common HTML tags you will use frequently:
-
-*   **Headings**: `<h1>` to `<h6>` for creating headings, `<h1>` being the largest and `<h6>` the smallest.
-    
+* **Bold Text**: `<b>` or `<strong>`
     ```
-    <h1>Main Heading</h1> <h2>Subheading</h2>
+    <b>This text is bold</b>
+    <strong>This text is strong</strong>
     ```
     
-*   **Paragraph**: `<p>` for creating paragraphs.
-    
+* **Italic Text**: `<i>` or `<em>`
     ```
-    <p>This is a paragraph.</p>
-    ```
-    
-*   **Links**: `<a>` for creating hyperlinks.
-
-    ```
-    <a href="https://www.example.com">Visit Example</a>
+    <i>This text is italic</i>
+    <em>This text is emphasized</em>
     ```
     
-*   **Images**: `<img>` for embedding images.
-
+* **Underlined Text**: `<u>`
     ```
-    <img src="image.jpg" alt="Description of image">
+    <u>This text is underlined</u>
+    ```
+    
+* **Strikethrough Text**: `<s>`
+    ```
+    <s>This text is strikethrough</s>
+    ```
+    
+* **Subscript and Superscript**: `<sub>` and `<sup>`
+    ```
+    H<sub>2</sub>O
+    E = mc<sup>2</sup>
+    ```
+    
+* **Quotations**: `<blockquote>` and `<q>`
+    ```
+    <blockquote>This is a blockquote.</blockquote>
+    <q>This is an inline quotation.</q>
+    ```
+    
+* **Preformatted Text**: `<pre>`
+    ```
+    <pre>
+    This text
+    preserves    whitespace
+    and line breaks.
+    </pre>
     ``` 
+    
 
-- - -
+#### 2\. Semantic HTML Elements
 
-### Additional Resources
+Semantic HTML elements clearly describe their meaning in a way that both the browser and the developer can understand. Using semantic elements improves accessibility and SEO.
 
-*   [MDN Web Docs: HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-*   [W3Schools: HTML Introduction](https://www.w3schools.com/html/html_intro.asp)
+* **Headings**: `<h1>` to `<h6>`
+    ```
+    <h1>Main Heading</h1>
+    <h2>Subheading</h2>
+    ```
+    
+* **Article**: `<article>`
+    ```
+    <article>
+        <h2>Article Title</h2>
+        <p>Article content goes here.</p>
+    </article>
+    ```
+    
+* **Section**: `<section>`
+    ```
+    <section>
+        <h2>Section Title</h2>
+        <p>Section content goes here.</p>
+    </section>
+    ``` 
+    
+* **Nav**: `<nav>`
+    ```
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    ``` 
+    
+* **Aside**: `<aside>`
+    ```
+    <aside>
+        <p>This is an aside.</p>
+    </aside>
+    ``` 
+    
+* **Footer**: `<footer>`
+    ```
+    <footer>
+        <p>Footer content goes here.</p>
+    </footer>
+    ``` 
+    
+* **Header**: `<header>`
+    ```
+    <header>
+        <h1>Website Header</h1>
+    </header>
+    ``` 
+    
 
-This should provide a comprehensive introduction to HTML for beginners.
+#### 3\. Creating a Document with Semantic HTML
+
+Let's create an HTML document using semantic elements:
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantic HTML Example</title>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Welcome to My Website</h2>
+            <p>This is an example of a website using semantic HTML elements.</p>
+        </article>
+
+        <section>
+            <h2>About</h2>
+            <p>Information about the website goes here.</p>
+        </section>
+
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="#link1">Link 1</a></li>
+                <li><a href="#link2">Link 2</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
+```
