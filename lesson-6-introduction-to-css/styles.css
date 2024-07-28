@@ -1,0 +1,18 @@
+/* Element Selector */
+h1 {
+    color: navy;
+    font-size: 36px;
+}
+
+/* Class Selector */
+.intro {
+    font-size: 20px;
+    color: darkgreen;
+}
+
+/* ID Selector */
+#main {
+    background-color: lightgray;
+    padding: 10px;
+    border: 1px solid black;
+}
