@@ -137,8 +137,3 @@ p {
     letter-spacing: 1px;
 }
 ```
-
-## Submission
-
-Submit your `homework_lesson7.html` file and optional `styles.css` file via the designated submission platform.
-

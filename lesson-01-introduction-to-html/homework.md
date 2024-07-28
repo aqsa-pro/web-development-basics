@@ -38,8 +38,3 @@ Complete the following tasks to practice the basics of HTML. Submit your work as
     - A header with a title.
     - A main content area with a heading, multiple paragraphs, a subheading, and a hyperlink.
     - An embedded image with appropriate `src` and `alt` attributes.
-
-## Submission
-
-Submit your `homework_lesson1.html` file via the designated submission platform.
-

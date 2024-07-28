@@ -36,8 +36,3 @@ Complete the following tasks to practice creating hyperlinks and adding images i
     - A header with a title and a navigation menu using links.
     - A main content area with sections that include images and internal links.
     - A footer with contact information.
-
-## Submission
-
-Submit your `homework_lesson3.html` file via the designated submission platform.
-

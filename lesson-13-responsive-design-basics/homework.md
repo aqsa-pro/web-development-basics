@@ -189,8 +189,3 @@ img {
     height: auto;
 }
 ```
-
-## Submission
-
-Submit your `homework_lesson13.html` file and optional `styles.css` file via the designated submission platform.
-

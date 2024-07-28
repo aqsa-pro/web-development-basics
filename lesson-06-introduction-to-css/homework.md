@@ -88,8 +88,3 @@ Complete the following tasks to practice using CSS with HTML. Submit your work a
     border: 1px solid black;
 }
 ```
-
-## Submission
-
-Submit your `homework_lesson6.html` file and optional `styles.css` file via the designated submission platform.
-

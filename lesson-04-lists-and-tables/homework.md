@@ -40,8 +40,3 @@ Complete the following tasks to practice creating and formatting lists and table
     - A header with a title.
     - A main content area with various lists and a table.
     - Proper formatting applied to all lists and the table.
-
-## Submission
-
-Submit your `homework_lesson4.html` file via the designated submission platform.
-

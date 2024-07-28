@@ -184,8 +184,3 @@ a:active {
     color: orange; /* Selected link */
 }
 ```
-
-## Submission
-
-Submit your `homework_lesson11.html` file and optional `styles.css` file via the designated submission platform.
-

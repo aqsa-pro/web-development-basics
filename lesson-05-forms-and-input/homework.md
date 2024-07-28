@@ -43,8 +43,3 @@ Complete the following tasks to practice creating and using forms and input elem
     - A header with a title.
     - A form with various input types and validation.
     - Proper structure and styling to make the form user-friendly.
-
-## Submission
-
-Submit your `homework_lesson5.html` file via the designated submission platform.
-

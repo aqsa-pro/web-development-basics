@@ -155,8 +155,3 @@ footer {
     font-size: 1.2em;
 }
 ```
-
-## Submission
-
-Submit your `homework_lesson10.html` file and optional `styles.css` file via the designated submission platform.
-

@@ -34,8 +34,3 @@ Complete the following tasks to practice text formatting and using semantic HTML
 
 1. Create a complete HTML document that includes a header, navigation, main content area, article, section, aside, and footer using semantic HTML elements.
 2. Ensure that your document is well-structured and accessible.
-
-## Submission
-
-Submit your `homework_lesson3.html` file via the designated submission platform.
-

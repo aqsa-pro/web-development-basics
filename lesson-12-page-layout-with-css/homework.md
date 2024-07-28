@@ -173,8 +173,3 @@ footer {
     }
 }
 ```
-
-## Submission
-
-Submit your `homework_lesson12.html` file and optional `styles.css` file via the designated submission platform.
-

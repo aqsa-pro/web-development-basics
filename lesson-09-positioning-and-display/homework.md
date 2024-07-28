@@ -164,8 +164,3 @@ footer {
     z-index: 1;
 }
 ```
-
-## Submission
-
-Submit your `homework_lesson9.html` file and optional `styles.css` file via the designated submission platform.
-
