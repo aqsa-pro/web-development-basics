@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Basic Text Styling */
+p.intro {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #333;
+}
+
+/* Text Alignment and Transformation */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Text Decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling Links */
+a.link {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+/* Link Pseudo-Classes */
+a:link {
+    color: blue; /* Unvisited link */
+}
+
+a:visited {
+    color: purple; /* Visited link */
+}
+
+a:hover {
+    color: red; /* Mouse over link */
+}
+
+a:active {
+    color: orange; /* Selected link */
+}
