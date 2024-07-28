@@ -1,0 +1,50 @@
+/* Basic Color and Background Color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Intro Paragraph */
+.intro {
+    color: #2980b9;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Highlight Paragraph */
+.highlight {
+    background-color: #ffeb3b;
+    font-weight: bold;
+}
+
+/* Uppercase Text */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Small Caps Text */
+.small-caps {
+    font-variant: small-caps;
+}
+
+/* Link */
+.link {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
