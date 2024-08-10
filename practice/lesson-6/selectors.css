@@ -1,0 +1,17 @@
+.fruit {
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+#apple {
+  background: pink;
+}
+
+#orange {
+  background: orange;
+}
+
+.sweet {
+  background: blue;
+}
