@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowling Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bowling Booking</h1>
+        <p>Book Your Bowling Fun with Ease</p>
+    </header>
+    <main>
+        <section class="booking">
+            <h2>Book a Lane</h2>
+            <form>
+                <label for="date">Choose a date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Choose a time:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <label for="lanes">Number of lanes:</label>
+                <input type="number" id="lanes" name="lanes" min="1" max="10" required>
+                
+                <button type="submit">Check Availability</button>
+            </form>
+        </section>
+        <section class="events">
+            <h2>Organize an Event</h2>
+            <p>Looking to organize a bowling event? Contact us for special arrangements and promotions!</p>
+        </section>
+        <section class="promotions">
+            <h2>Special Promotions</h2>
+            <ul>
+                <li>50% off on weekdays before 5 PM</li>
+                <li>Buy 1 Get 1 Free on weekends</li>
+                <li>Student discounts available</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bowling Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
