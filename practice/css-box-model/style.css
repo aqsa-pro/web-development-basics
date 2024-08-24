@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+  }
+
+.post {
+    width: 200px;
+    border: 1px solid pink;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    background: pink;
+}
+
+.post h3, .post p {
+    color: red;
+}
